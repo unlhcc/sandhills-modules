@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2016-06-17T19:40:41Z" UniqueID="localsoft4.sandhills.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2016-06-24T17:51:55Z" UniqueID="localsoft4.sandhills.tacc.xsede.org">
     <ResourceID>sandhills.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -484,6 +484,19 @@
       <Context>compiler/intel/11</Context>
     </LocalSoftware>
     <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>clustal-omega</Name>
+      <Description>Clustal Omega is the latest addition to the Clustal family. It offers a significant increase in scalability over previous versions, allowing hundreds of thousands of sequences to be aligned in only a few hours</Description>
+      <Flavor>1.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>clustal-omega/1.2</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
       <Name>hdfeos5</Name>
@@ -575,19 +588,6 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>clustal-omega</Name>
-      <Description>Clustal Omega is the latest addition to the Clustal family. It offers a significant increase in scalability over previous versions, allowing hundreds of thousands of sequences to be aligned in only a few hours</Description>
-      <Flavor>1.2</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>clustal-omega/1.2</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
       <Name>gamess</Name>
@@ -616,19 +616,6 @@
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>vasp</Name>
-      <Description />
-      <Flavor>5.4</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>vasp/5.4</HandleKey>
-      </Handle>
-      <Context>compiler/intel/13:openmpi/1.6</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
       <Name>espresso</Name>
       <Description />
       <Flavor>5.0</Flavor>
@@ -636,6 +623,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>espresso/5.0</HandleKey>
+      </Handle>
+      <Context>compiler/intel/13:openmpi/1.6</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>vasp</Name>
+      <Description />
+      <Flavor>5.4</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>vasp/5.4</HandleKey>
       </Handle>
       <Context>compiler/intel/13:openmpi/1.6</Context>
     </LocalSoftware>
@@ -649,6 +649,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>cmake/2.8</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>utility</Domain>
+      <Name>scons</Name>
+      <Description>SCons: A software construction tool.</Description>
+      <Flavor>2.5</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>scons/2.5</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1684,11 +1697,11 @@
       <Domain>compiler</Domain>
       <Name>compiler/intel</Name>
       <Description />
-      <Flavor>16</Flavor>
+      <Flavor>15</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>compiler/intel/16</HandleKey>
+        <HandleKey>compiler/intel/15</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1697,11 +1710,11 @@
       <Domain>compiler</Domain>
       <Name>compiler/intel</Name>
       <Description />
-      <Flavor>12</Flavor>
+      <Flavor>16</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>compiler/intel/12</HandleKey>
+        <HandleKey>compiler/intel/16</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1723,11 +1736,11 @@
       <Domain>compiler</Domain>
       <Name>compiler/intel</Name>
       <Description />
-      <Flavor>15</Flavor>
+      <Flavor>12</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>compiler/intel/15</HandleKey>
+        <HandleKey>compiler/intel/12</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
