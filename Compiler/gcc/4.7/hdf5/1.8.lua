@@ -18,5 +18,5 @@ prepend_path("PATH",                "/util/opt/hdf5/1.8/gcc/4.7/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/hdf5/1.8/gcc/4.7/lib")
 prepend_path("MANPATH",             "/util/opt/hdf5/1.8/gcc/4.7/share/man")
 prepend_path("INCLUDE",             "/util/opt/hdf5/1.8/gcc/4.7/include")
-
+load("szip/2.1","zlib/1.2")
 family("hdf5")
