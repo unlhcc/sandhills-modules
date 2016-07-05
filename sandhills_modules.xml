@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2016-06-28T18:50:36Z" UniqueID="localsoft4.sandhills.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2016-07-05T21:16:37Z" UniqueID="localsoft4.sandhills.tacc.xsede.org">
     <ResourceID>sandhills.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -380,58 +380,6 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.2</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.2</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.7</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.2</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.2</HandleKey>
-      </Handle>
-      <Context>compiler/intel/12</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.2</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.2</HandleKey>
-      </Handle>
-      <Context>compiler/pgi/12</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>NCO</Name>
-      <Description />
-      <Flavor>4.2</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>NCO/4.2</HandleKey>
-      </Handle>
-      <Context>compiler/intel/11</Context>
-    </LocalSoftware>
-    <LocalSoftware>
       <Type>application</Type>
       <Domain>computational biology</Domain>
       <Name>clustal-omega</Name>
@@ -447,6 +395,71 @@
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>NCO/4.2</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.7</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>NCO/4.2</HandleKey>
+      </Handle>
+      <Context>compiler/intel/12</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>NCO/4.2</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/12</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>NCO</Name>
+      <Description />
+      <Flavor>4.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>NCO/4.2</HandleKey>
+      </Handle>
+      <Context>compiler/intel/11</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>gamess</Name>
+      <Description />
+      <Flavor>20141205R1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>gamess/20141205R1</HandleKey>
+      </Handle>
+      <Context>compiler/intel/13:openmpi/1.6</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
       <Name>hdf4</Name>
       <Description />
       <Flavor>4.2</Flavor>
@@ -499,13 +512,13 @@
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>gamess</Name>
+      <Name>openmx</Name>
       <Description />
-      <Flavor>20141205R1</Flavor>
+      <Flavor>3.7</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>gamess/20141205R1</HandleKey>
+        <HandleKey>openmx/3.7</HandleKey>
       </Handle>
       <Context>compiler/intel/13:openmpi/1.6</Context>
     </LocalSoftware>
@@ -601,30 +614,17 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>openmx</Name>
-      <Description />
-      <Flavor>3.7</Flavor>
+      <Type>application</Type>
+      <Domain>utility</Domain>
+      <Name>scons</Name>
+      <Description>SCons: A software construction tool.</Description>
+      <Flavor>2.5</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>openmx/3.7</HandleKey>
+        <HandleKey>scons/2.5</HandleKey>
       </Handle>
-      <Context>compiler/intel/13:openmpi/1.6</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>fftw3</Name>
-      <Description />
-      <Flavor>3.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>fftw3/3.3</HandleKey>
-      </Handle>
-      <Context>compiler/intel/13</Context>
+      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -636,19 +636,6 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>espresso/5.0</HandleKey>
-      </Handle>
-      <Context>compiler/intel/13:openmpi/1.6</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>vasp</Name>
-      <Description />
-      <Flavor>5.4</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>vasp/5.4</HandleKey>
       </Handle>
       <Context>compiler/intel/13:openmpi/1.6</Context>
     </LocalSoftware>
@@ -666,17 +653,56 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>utility</Domain>
-      <Name>scons</Name>
-      <Description>SCons: A software construction tool.</Description>
-      <Flavor>2.5</Flavor>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>vasp</Name>
+      <Description />
+      <Flavor>5.4</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>scons/2.5</HandleKey>
+        <HandleKey>vasp/5.4</HandleKey>
       </Handle>
-      <Context>default</Context>
+      <Context>compiler/intel/13:openmpi/1.6</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>fftw3</Name>
+      <Description />
+      <Flavor>3.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>fftw3/3.3</HandleKey>
+      </Handle>
+      <Context>compiler/intel/15</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>fftw3</Name>
+      <Description />
+      <Flavor>3.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>fftw3/3.3</HandleKey>
+      </Handle>
+      <Context>compiler/intel/13</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>math</Domain>
+      <Name>shtns</Name>
+      <Description />
+      <Flavor>2.6</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>shtns/2.6</HandleKey>
+      </Handle>
+      <Context>compiler/intel/15</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
