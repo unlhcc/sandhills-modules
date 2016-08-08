@@ -1,13 +1,13 @@
 local help_message = [[
-MATLAB r2016b
+MATLAB r2016a
 ]]
 
 help(help_message,"\n")
 
-whatis("Name: MATLAB r2016b")
+whatis("Name: MATLAB r2016a")
 whatis("Keywords: Application, Engineering, Math")
 
 local WORK = os.getenv("WORK")
 setenv("MATLAB_PREFDIR", WORK .. "/.matlab")
 
-prepend_path("PATH","/util/opt/matlab/r2016b/bin")
+prepend_path("PATH","/util/opt/matlab/r2016a/bin")
