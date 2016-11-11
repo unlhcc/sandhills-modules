@@ -23,7 +23,7 @@ setenv("WRFIO_NCD_LARGE_FILE_SUPPORT", "1")
 setenv("JASPERINC", "/util/opt/jasper/1.900.1/pgi/12/include")
 setenv("JASPERLIB", "/util/opt/jasper/1.900.1/pgi/12/lib")
 
-prepend_path("PATH",                "/util/opt/cdo/1.6/pgi/12/bin/")
+prepend_path("PATH",                "/util/opt/cdo/1.7/pgi/12/bin/")
 prepend_path("PATH",                "/util/opt/ncview/2.1/pgi/12/bin")
 
 family("WRF")
