@@ -13,7 +13,7 @@ whatis("Category: Application, Chemistry")
 whatis("Keywords: Application, Chemistry")
 whatis("URL: http://www.gaussian.com/g_prod/g16.htm")
 
-setenv("g09root", "/util/opt/gaussian/16/RevA")
+setenv("g16root", "/util/opt/gaussian/16/RevA")
 setenv("GAUSS_SCRDIR", "/tmp")
 prepend_path("LD_LIBRARY_PATH","/util/comp/pgi/linux86-64/12/libso")
 
