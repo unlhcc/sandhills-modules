@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2017-11-28T19:28:56Z" UniqueID="localsoft4.sandhills.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2017-11-28T20:05:25Z" UniqueID="localsoft4.sandhills.tacc.xsede.org">
     <ResourceID>sandhills.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -641,53 +641,14 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>unknown</Domain>
-      <Name>lsdyna</Name>
+      <Domain>Chemistry</Domain>
+      <Name>gaussian/16</Name>
       <Description />
-      <Flavor>8.0.0</Flavor>
+      <Flavor>16 RevE</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>lsdyna/8.0.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>unknown</Domain>
-      <Name>lsdyna</Name>
-      <Description />
-      <Flavor>8.0.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>lsdyna/8.0.1</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>unknown</Domain>
-      <Name>lsdyna</Name>
-      <Description />
-      <Flavor>9.0.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>lsdyna/9.0.1</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>unknown</Domain>
-      <Name>lsdyna</Name>
-      <Description />
-      <Flavor>8.1.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>lsdyna/8.1.0</HandleKey>
+        <HandleKey>gaussian/16/RevA</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -992,6 +953,19 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>quast</Name>
+      <Description>QUAST evaluates genome assemblies by computing various metrics.</Description>
+      <Flavor>4.5</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>quast/4.5</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
       <Domain>system</Domain>
       <Name>anaconda</Name>
       <Description />
@@ -1161,14 +1135,53 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>system</Domain>
-      <Name>lftp</Name>
-      <Description>LFTP is a sophisticated file transfer program supporting a number of network protocols (ftp, http, sftp, fish, torrent).</Description>
-      <Flavor>4.8.2</Flavor>
+      <Domain>unknown</Domain>
+      <Name>mathematica</Name>
+      <Description />
+      <Flavor>11.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>lftp/4.8</HandleKey>
+        <HandleKey>mathematica/11.0</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>unknown</Domain>
+      <Name>mathematica</Name>
+      <Description />
+      <Flavor>9.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>mathematica/9.0</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>unknown</Domain>
+      <Name>mathematica</Name>
+      <Description />
+      <Flavor>10.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>mathematica/10.0</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>unknown</Domain>
+      <Name>mathematica</Name>
+      <Description />
+      <Flavor>10.4</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>mathematica/10.4</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1486,14 +1499,53 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>Chemistry</Domain>
-      <Name>gaussian/16</Name>
+      <Domain>unknown</Domain>
+      <Name>lsdyna</Name>
       <Description />
-      <Flavor>16 RevE</Flavor>
+      <Flavor>8.0.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>gaussian/16/RevA</HandleKey>
+        <HandleKey>lsdyna/8.0.0</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>unknown</Domain>
+      <Name>lsdyna</Name>
+      <Description />
+      <Flavor>8.0.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>lsdyna/8.0.1</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>unknown</Domain>
+      <Name>lsdyna</Name>
+      <Description />
+      <Flavor>9.0.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>lsdyna/9.0.1</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>unknown</Domain>
+      <Name>lsdyna</Name>
+      <Description />
+      <Flavor>8.1.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>lsdyna/8.1.0</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1550,56 +1602,30 @@
       <Context>compiler/intel/13:openmpi/1.6</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>unknown</Domain>
-      <Name>mathematica</Name>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>cp2k</Name>
       <Description />
-      <Flavor>11.0</Flavor>
+      <Flavor>2.6</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>mathematica/11.0</HandleKey>
+        <HandleKey>cp2k/2.6</HandleKey>
       </Handle>
-      <Context>default</Context>
+      <Context>compiler/gcc/4.7:openmpi/1.6</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>unknown</Domain>
-      <Name>mathematica</Name>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>cp2k</Name>
       <Description />
-      <Flavor>9.0</Flavor>
+      <Flavor>3.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>mathematica/9.0</HandleKey>
+        <HandleKey>cp2k/3.0</HandleKey>
       </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>unknown</Domain>
-      <Name>mathematica</Name>
-      <Description />
-      <Flavor>10.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>mathematica/10.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>unknown</Domain>
-      <Name>mathematica</Name>
-      <Description />
-      <Flavor>10.4</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>mathematica/10.4</HandleKey>
-      </Handle>
-      <Context>default</Context>
+      <Context>compiler/gcc/4.7:openmpi/1.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -1628,32 +1654,6 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>cp2k</Name>
-      <Description />
-      <Flavor>2.6</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>cp2k/2.6</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.7:openmpi/1.6</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>cp2k</Name>
-      <Description />
-      <Flavor>3.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>cp2k/3.0</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.7:openmpi/1.8</Context>
-    </LocalSoftware>
-    <LocalSoftware>
       <Type>application</Type>
       <Domain>mathematics</Domain>
       <Name>theano</Name>
@@ -1676,6 +1676,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>theano/py36/0.9</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>Utility</Domain>
+      <Name>python-openstackclient</Name>
+      <Description>OpenStackClient (aka OSC) is a command-line client for OpenStack that brings the command set for Compute, Identity, Image, Object Store and Block Storage APIs together in a single shell with a uniform command structure.</Description>
+      <Flavor>3.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>python-openstackclient/3.3</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -2084,19 +2097,6 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>Utility</Domain>
-      <Name>python-openstackclient</Name>
-      <Description>OpenStackClient (aka OSC) is a command-line client for OpenStack that brings the command set for Compute, Identity, Image, Object Store and Block Storage APIs together in a single shell with a uniform command structure.</Description>
-      <Flavor>3.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>python-openstackclient/3.3</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
       <Domain>computational biology</Domain>
       <Name>SRAtoolkit</Name>
       <Description>SRA Toolkit</Description>
@@ -2105,6 +2105,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>SRAtoolkit/2.8</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>system</Domain>
+      <Name>lftp</Name>
+      <Description>LFTP is a sophisticated file transfer program supporting a number of network protocols (ftp, http, sftp, fish, torrent).</Description>
+      <Flavor>4.8.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>lftp/4.8</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
