@@ -1,4 +1,4 @@
-ihelp (
+help (
 [[
 This module loads seqtk.
 Version 1.2
