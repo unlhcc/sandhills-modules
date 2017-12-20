@@ -9,7 +9,7 @@ compilers.
 help(help_message,"\n")
 
 whatis("Name: SHTns")
-whatis("Version: 2.8")
+whatis("Version: 2.6")
 whatis("Category: application, math")
 whatis("Keywords: Application, Math")
 whatis("URL: https://users.isterre.fr/nschaeff/SHTns/index.html")
