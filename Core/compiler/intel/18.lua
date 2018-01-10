@@ -1,5 +1,5 @@
 local help_message = [[
-Intel Compilers 16 (2016.3)
+Intel Compilers 18 (2018.1)
 
 This module loads Intel Compiler variables.
 The command directory is added to PATH.
