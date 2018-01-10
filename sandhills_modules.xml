@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2017-12-08T21:54:31Z" UniqueID="localsoft4.sandhills.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2018-01-10T20:42:05Z" UniqueID="localsoft4.sandhills.tacc.xsede.org">
     <ResourceID>sandhills.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -2490,6 +2490,19 @@
       <Domain>compiler</Domain>
       <Name>compiler/intel</Name>
       <Description />
+      <Flavor>15</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>compiler/intel/15</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>compiler</Domain>
+      <Name>compiler/intel</Name>
+      <Description />
       <Flavor>16</Flavor>
       <Default>no</Default>
       <Handle>
@@ -2516,11 +2529,11 @@
       <Domain>compiler</Domain>
       <Name>compiler/intel</Name>
       <Description />
-      <Flavor>15</Flavor>
+      <Flavor>18</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>compiler/intel/15</HandleKey>
+        <HandleKey>compiler/intel/18</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
