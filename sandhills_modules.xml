@@ -1,20 +1,7 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2018-01-10T20:42:05Z" UniqueID="localsoft4.sandhills.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2018-01-12T18:26:00Z" UniqueID="localsoft4.sandhills.tacc.xsede.org">
     <ResourceID>sandhills.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>machine learning</Domain>
-      <Name>sonnet</Name>
-      <Description>Sonnet is a library built on top of TensorFlow for building complex neural networks.</Description>
-      <Flavor>1.13</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>sonnet/py35/1.13</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
       <Domain>machine learning</Domain>
@@ -38,6 +25,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>sonnet/py36/1.13</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>machine learning</Domain>
+      <Name>sonnet</Name>
+      <Description>Sonnet is a library built on top of TensorFlow for building complex neural networks.</Description>
+      <Flavor>1.13</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>sonnet/py35/1.13</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -137,37 +137,11 @@
       <Domain>unknown</Domain>
       <Name>matlab</Name>
       <Description />
-      <Flavor>r2015b</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>matlab/r2015b</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>unknown</Domain>
-      <Name>matlab</Name>
-      <Description />
       <Flavor>r2016a</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>matlab/r2016a</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>unknown</Domain>
-      <Name>matlab</Name>
-      <Description />
-      <Flavor>r2014b</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>matlab/r2014b</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -199,27 +173,27 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>compiler</Domain>
-      <Name>compiler/gcc</Name>
+      <Domain>unknown</Domain>
+      <Name>matlab</Name>
       <Description />
-      <Flavor>7.1</Flavor>
+      <Flavor>r2014b</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>compiler/gcc/7.1</HandleKey>
+        <HandleKey>matlab/r2014b</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>compiler</Domain>
-      <Name>compiler/gcc</Name>
+      <Domain>unknown</Domain>
+      <Name>matlab</Name>
       <Description />
-      <Flavor>6.1</Flavor>
+      <Flavor>r2015b</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>compiler/gcc/6.1</HandleKey>
+        <HandleKey>matlab/r2015b</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -233,6 +207,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>compiler/gcc/4.9</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>compiler</Domain>
+      <Name>compiler/gcc</Name>
+      <Description />
+      <Flavor>6.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>compiler/gcc/6.1</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -259,6 +246,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>compiler/gcc/4.8</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>compiler</Domain>
+      <Name>compiler/gcc</Name>
+      <Description />
+      <Flavor>7.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>compiler/gcc/7.1</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -371,11 +371,11 @@
       <Domain>system</Domain>
       <Name>python</Name>
       <Description />
-      <Flavor>3.6</Flavor>
+      <Flavor>3.3</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>python/3.6</HandleKey>
+        <HandleKey>python/3.3</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -397,11 +397,11 @@
       <Domain>system</Domain>
       <Name>python</Name>
       <Description />
-      <Flavor>3.3</Flavor>
+      <Flavor>3.4</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>python/3.3</HandleKey>
+        <HandleKey>python/3.4</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -410,11 +410,11 @@
       <Domain>system</Domain>
       <Name>python</Name>
       <Description />
-      <Flavor>3.4</Flavor>
+      <Flavor>3.6</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>python/3.4</HandleKey>
+        <HandleKey>python/3.6</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -553,11 +553,11 @@
       <Domain>Utility</Domain>
       <Name>allinea</Name>
       <Description />
-      <Flavor>5.0</Flavor>
+      <Flavor>6.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>allinea/5.0</HandleKey>
+        <HandleKey>allinea/6.0</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -566,11 +566,11 @@
       <Domain>Utility</Domain>
       <Name>allinea</Name>
       <Description />
-      <Flavor>6.0</Flavor>
+      <Flavor>5.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>allinea/6.0</HandleKey>
+        <HandleKey>allinea/5.0</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -936,7 +936,7 @@
         <HandleType>module</HandleType>
         <HandleKey>zlib/1.2</HandleKey>
       </Handle>
-      <Context>compiler/open64/4.5</Context>
+      <Context>compiler/intel/11</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -949,7 +949,7 @@
         <HandleType>module</HandleType>
         <HandleKey>zlib/1.2</HandleKey>
       </Handle>
-      <Context>compiler/intel/11</Context>
+      <Context>compiler/open64/4.5</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -1008,11 +1008,11 @@
       <Domain>system</Domain>
       <Name>anaconda</Name>
       <Description />
-      <Flavor>4.3</Flavor>
+      <Flavor>3.4</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>anaconda/4.3</HandleKey>
+        <HandleKey>anaconda/3.4</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1021,11 +1021,11 @@
       <Domain>system</Domain>
       <Name>anaconda</Name>
       <Description />
-      <Flavor>3.4</Flavor>
+      <Flavor>4.3</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>anaconda/3.4</HandleKey>
+        <HandleKey>anaconda/4.3</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1060,11 +1060,11 @@
       <Domain>utility</Domain>
       <Name>NCL</Name>
       <Description>A library of graphics utilites from the Natl. Center for Atmospheric Research.</Description>
-      <Flavor>6.3</Flavor>
+      <Flavor>6.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>NCL/6.3dist</HandleKey>
+        <HandleKey>NCL/6.1dist</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1099,11 +1099,11 @@
       <Domain>utility</Domain>
       <Name>NCL</Name>
       <Description>A library of graphics utilites from the Natl. Center for Atmospheric Research.</Description>
-      <Flavor>6.1</Flavor>
+      <Flavor>6.3</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>NCL/6.1dist</HandleKey>
+        <HandleKey>NCL/6.3dist</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1125,6 +1125,19 @@
       <Domain>Chemistry</Domain>
       <Name>gaussian/09</Name>
       <Description />
+      <Flavor>09 RevD</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>gaussian/09/RevD</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>Chemistry</Domain>
+      <Name>gaussian/09</Name>
+      <Description />
       <Flavor>09 RevE</Flavor>
       <Default>no</Default>
       <Handle>
@@ -1135,14 +1148,27 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>Chemistry</Domain>
-      <Name>gaussian/09</Name>
+      <Domain>unknown</Domain>
+      <Name>mathematica</Name>
       <Description />
-      <Flavor>09 RevD</Flavor>
+      <Flavor>11.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>gaussian/09/RevD</HandleKey>
+        <HandleKey>mathematica/11.0</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>unknown</Domain>
+      <Name>mathematica</Name>
+      <Description />
+      <Flavor>9.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>mathematica/9.0</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1169,32 +1195,6 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>mathematica/10.4</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>unknown</Domain>
-      <Name>mathematica</Name>
-      <Description />
-      <Flavor>9.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>mathematica/9.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>unknown</Domain>
-      <Name>mathematica</Name>
-      <Description />
-      <Flavor>11.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>mathematica/11.0</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1303,28 +1303,15 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>tools</Domain>
-      <Name>intel-mkl</Name>
-      <Description>Numerical library, contains blas/lapack</Description>
-      <Flavor>12</Flavor>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>jellyfish</Name>
+      <Description>Jellyfish is a tool for fast, memory-efficient counting of k-mers in DNA.</Description>
+      <Flavor>2.2.6</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>intel-mkl/11</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>tools</Domain>
-      <Name>intel-mkl</Name>
-      <Description>Numerical library, contains blas/lapack</Description>
-      <Flavor>13</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>intel-mkl/13</HandleKey>
+        <HandleKey>jellyfish/2.2</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1346,6 +1333,32 @@
       <Domain>tools</Domain>
       <Name>intel-mkl</Name>
       <Description>Numerical library, contains blas/lapack</Description>
+      <Flavor>16</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>intel-mkl/16</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>tools</Domain>
+      <Name>intel-mkl</Name>
+      <Description>Numerical library, contains blas/lapack</Description>
+      <Flavor>12</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>intel-mkl/11</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>tools</Domain>
+      <Name>intel-mkl</Name>
+      <Description>Numerical library, contains blas/lapack</Description>
       <Flavor>15</Flavor>
       <Default>no</Default>
       <Handle>
@@ -1359,24 +1372,11 @@
       <Domain>tools</Domain>
       <Name>intel-mkl</Name>
       <Description>Numerical library, contains blas/lapack</Description>
-      <Flavor>16</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>intel-mkl/16</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>compiler</Domain>
-      <Name>compiler/pgi</Name>
-      <Description />
       <Flavor>13</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>compiler/pgi/13</HandleKey>
+        <HandleKey>intel-mkl/13</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1390,6 +1390,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>compiler/pgi/11</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>compiler</Domain>
+      <Name>compiler/pgi</Name>
+      <Description />
+      <Flavor>13</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>compiler/pgi/13</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1563,54 +1576,93 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>cp2k</Name>
-      <Description />
-      <Flavor>2.6</Flavor>
+      <Type>application</Type>
+      <Domain>mathematics</Domain>
+      <Name>theano</Name>
+      <Description>Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently.</Description>
+      <Flavor>0.9.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>cp2k/2.6</HandleKey>
+        <HandleKey>theano/py27/0.9</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.7:openmpi/1.6</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>cp2k</Name>
-      <Description />
-      <Flavor>3.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>cp2k/3.0</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.7:openmpi/1.8</Context>
+      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>spades</Name>
-      <Description>SPAdes - St. Petersburg genome assembler - is intended for both standard isolates and single-cell MDA bacteria assemblies.</Description>
-      <Flavor>3.11.0</Flavor>
+      <Domain>mathematics</Domain>
+      <Name>theano</Name>
+      <Description>Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently.</Description>
+      <Flavor>0.9.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>spades/3.11</HandleKey>
+        <HandleKey>theano/py36/0.9</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>compiler</Domain>
+      <Name>compiler/open64</Name>
+      <Description />
+      <Flavor>4.5</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>compiler/open64/4.5</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
       <Domain>unknown</Domain>
-      <Name>gnuplot</Name>
-      <Description>Gnuplot is a portable command-line driven graphing utility for Linux, OS/2, MS Windows, OSX, VMS, and many other platforms.</Description>
-      <Flavor>4.6</Flavor>
+      <Name>lsdyna</Name>
+      <Description />
+      <Flavor>8.0.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>gnuplot/4.6</HandleKey>
+        <HandleKey>lsdyna/8.0.0</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>unknown</Domain>
+      <Name>lsdyna</Name>
+      <Description />
+      <Flavor>8.0.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>lsdyna/8.0.1</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>unknown</Domain>
+      <Name>lsdyna</Name>
+      <Description />
+      <Flavor>9.0.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>lsdyna/9.0.1</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>unknown</Domain>
+      <Name>lsdyna</Name>
+      <Description />
+      <Flavor>8.1.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>lsdyna/8.1.0</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1654,6 +1706,58 @@
       <Context>compiler/intel/13:openmpi/1.6</Context>
     </LocalSoftware>
     <LocalSoftware>
+      <Type>application</Type>
+      <Domain>Utility</Domain>
+      <Name>python-openstackclient</Name>
+      <Description>OpenStackClient (aka OSC) is a command-line client for OpenStack that brings the command set for Compute, Identity, Image, Object Store and Block Storage APIs together in a single shell with a uniform command structure.</Description>
+      <Flavor>3.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>python-openstackclient/3.3</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>spades</Name>
+      <Description>SPAdes - St. Petersburg genome assembler - is intended for both standard isolates and single-cell MDA bacteria assemblies.</Description>
+      <Flavor>3.11.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>spades/3.11</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>system</Domain>
+      <Name>ruby</Name>
+      <Description />
+      <Flavor>2.0</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>ruby/2.0</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>unknown</Domain>
+      <Name>gnuplot</Name>
+      <Description>Gnuplot is a portable command-line driven graphing utility for Linux, OS/2, MS Windows, OSX, VMS, and many other platforms.</Description>
+      <Flavor>4.6</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>gnuplot/4.6</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
       <Name>lammps</Name>
@@ -1691,71 +1795,6 @@
         <HandleKey>lammps/15May15</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.9:openmpi/1.6</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>math</Domain>
-      <Name>shtns</Name>
-      <Description />
-      <Flavor>2.6</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>shtns/2.6</HandleKey>
-      </Handle>
-      <Context>compiler/intel/15</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>system</Domain>
-      <Name>ruby</Name>
-      <Description />
-      <Flavor>2.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>ruby/2.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>mathematics</Domain>
-      <Name>theano</Name>
-      <Description>Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently.</Description>
-      <Flavor>0.9.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>theano/py36/0.9</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>mathematics</Domain>
-      <Name>theano</Name>
-      <Description>Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently.</Description>
-      <Flavor>0.9.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>theano/py27/0.9</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>Utility</Domain>
-      <Name>python-openstackclient</Name>
-      <Description>OpenStackClient (aka OSC) is a command-line client for OpenStack that brings the command set for Compute, Identity, Image, Object Store and Block Storage APIs together in a single shell with a uniform command structure.</Description>
-      <Flavor>3.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>python-openstackclient/3.3</HandleKey>
-      </Handle>
-      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -1970,19 +2009,6 @@
       <Domain>runtime support</Domain>
       <Name>openmpi</Name>
       <Description />
-      <Flavor>1.10.4</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>openmpi/1.10</HandleKey>
-      </Handle>
-      <Context>compiler/intel/16</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>openmpi</Name>
-      <Description />
       <Flavor>1.6</Flavor>
       <Default>no</Default>
       <Handle>
@@ -2002,7 +2028,7 @@
         <HandleType>module</HandleType>
         <HandleKey>openmpi/1.8</HandleKey>
       </Handle>
-      <Context>compiler/pgi/12</Context>
+      <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -2015,7 +2041,20 @@
         <HandleType>module</HandleType>
         <HandleKey>openmpi/1.8</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.9</Context>
+      <Context>compiler/gcc/4.7</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>openmpi</Name>
+      <Description />
+      <Flavor>1.8</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>openmpi/1.8</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/12</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -2048,13 +2087,13 @@
       <Domain>runtime support</Domain>
       <Name>openmpi</Name>
       <Description />
-      <Flavor>1.8</Flavor>
+      <Flavor>1.10.4</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>openmpi/1.8</HandleKey>
+        <HandleKey>openmpi/1.10</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.7</Context>
+      <Context>compiler/intel/16</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -2135,56 +2174,30 @@
       <Context>compiler/pgi/11</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>unknown</Domain>
-      <Name>lsdyna</Name>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>cp2k</Name>
       <Description />
-      <Flavor>8.0.0</Flavor>
+      <Flavor>2.6</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>lsdyna/8.0.0</HandleKey>
+        <HandleKey>cp2k/2.6</HandleKey>
       </Handle>
-      <Context>default</Context>
+      <Context>compiler/gcc/4.7:openmpi/1.6</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>unknown</Domain>
-      <Name>lsdyna</Name>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>cp2k</Name>
       <Description />
-      <Flavor>9.0.1</Flavor>
+      <Flavor>3.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>lsdyna/9.0.1</HandleKey>
+        <HandleKey>cp2k/3.0</HandleKey>
       </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>unknown</Domain>
-      <Name>lsdyna</Name>
-      <Description />
-      <Flavor>8.1.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>lsdyna/8.1.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>unknown</Domain>
-      <Name>lsdyna</Name>
-      <Description />
-      <Flavor>8.0.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>lsdyna/8.0.1</HandleKey>
-      </Handle>
-      <Context>default</Context>
+      <Context>compiler/gcc/4.7:openmpi/1.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -2213,19 +2226,6 @@
       <Context>compiler/gcc/4.7</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>R</Name>
-      <Description />
-      <Flavor>3.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>R/3.0</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
       <Type>application</Type>
       <Domain>mathematics</Domain>
       <Name>R</Name>
@@ -2235,6 +2235,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>R/3.4</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>R</Name>
+      <Description />
+      <Flavor>3.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>R/3.2</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -2256,11 +2269,11 @@
       <Domain>runtime support</Domain>
       <Name>R</Name>
       <Description />
-      <Flavor>3.2</Flavor>
+      <Flavor>3.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>R/3.2</HandleKey>
+        <HandleKey>R/3.0</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -2295,32 +2308,6 @@
       <Domain>machine learning</Domain>
       <Name>tensorflow</Name>
       <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
-      <Flavor>1.3.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>tensorflow/py27/1.3</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>machine learning</Domain>
-      <Name>tensorflow</Name>
-      <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
-      <Flavor>1.3.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>tensorflow/py35/1.3</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>machine learning</Domain>
-      <Name>tensorflow</Name>
-      <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
       <Flavor>0.12.1</Flavor>
       <Default>no</Default>
       <Handle>
@@ -2347,11 +2334,11 @@
       <Domain>machine learning</Domain>
       <Name>tensorflow</Name>
       <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
-      <Flavor>1.4.0</Flavor>
+      <Flavor>1.3.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>tensorflow/py27/1.4</HandleKey>
+        <HandleKey>tensorflow/py35/1.3</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -2360,11 +2347,11 @@
       <Domain>machine learning</Domain>
       <Name>tensorflow</Name>
       <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
-      <Flavor>1.3.1</Flavor>
+      <Flavor>1.4.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>tensorflow/py36/1.3</HandleKey>
+        <HandleKey>tensorflow/py35/1.4</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -2390,7 +2377,20 @@
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>tensorflow/py35/1.4</HandleKey>
+        <HandleKey>tensorflow/py27/1.4</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>machine learning</Domain>
+      <Name>tensorflow</Name>
+      <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
+      <Flavor>1.3.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>tensorflow/py27/1.3</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -2404,6 +2404,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>tensorflow/py36/1.4</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>machine learning</Domain>
+      <Name>tensorflow</Name>
+      <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
+      <Flavor>1.3.1</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>tensorflow/py36/1.3</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -2490,11 +2503,11 @@
       <Domain>compiler</Domain>
       <Name>compiler/intel</Name>
       <Description />
-      <Flavor>15</Flavor>
+      <Flavor>18</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>compiler/intel/15</HandleKey>
+        <HandleKey>compiler/intel/18</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -2529,11 +2542,11 @@
       <Domain>compiler</Domain>
       <Name>compiler/intel</Name>
       <Description />
-      <Flavor>18</Flavor>
+      <Flavor>15</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>compiler/intel/18</HandleKey>
+        <HandleKey>compiler/intel/15</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -2555,11 +2568,11 @@
       <Domain>system</Domain>
       <Name>cmake</Name>
       <Description>tool for generation of files from source</Description>
-      <Flavor>3.7</Flavor>
+      <Flavor>2.8</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>cmake/3.7</HandleKey>
+        <HandleKey>cmake/2.8</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -2568,11 +2581,11 @@
       <Domain>system</Domain>
       <Name>cmake</Name>
       <Description>tool for generation of files from source</Description>
-      <Flavor>2.8</Flavor>
+      <Flavor>3.7</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>cmake/2.8</HandleKey>
+        <HandleKey>cmake/3.7</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -2617,19 +2630,6 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>compiler</Domain>
-      <Name>compiler/open64</Name>
-      <Description />
-      <Flavor>4.5</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>compiler/open64/4.5</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
       <Domain>system</Domain>
       <Name>java</Name>
       <Description>Java JDK.</Description>
@@ -2638,6 +2638,19 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>java/1.6</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>application</Type>
+      <Domain>system</Domain>
+      <Name>java</Name>
+      <Description>Java JDK.</Description>
+      <Flavor>1.7</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>java/1.7</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -2656,16 +2669,16 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>system</Domain>
-      <Name>java</Name>
-      <Description>Java JDK.</Description>
-      <Flavor>1.7</Flavor>
+      <Domain>math</Domain>
+      <Name>shtns</Name>
+      <Description />
+      <Flavor>2.6</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>java/1.7</HandleKey>
+        <HandleKey>shtns/2.6</HandleKey>
       </Handle>
-      <Context>default</Context>
+      <Context>compiler/intel/15</Context>
     </LocalSoftware>
   </RPSoftwareList>
 </V4RPSoftwareRP>
