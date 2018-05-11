@@ -18,10 +18,13 @@ whatis("URL: http://developer.amd.com/tools-and-sdks/cpu-development/x86-open64-
 
 prepend_path("PATH",                "/util/comp/open64/4.5/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/comp/open64/4.5/lib")
-prepend_path("LD_LIBRARY_PATH",     "/util/comp/open64/4.5/lib/gcc-lib/x86_64-open64-linux/4.5.2.1")
+prepend_path("LD_LIBRARY_PATH",     "/util/comp/open64/4.5/lib/gcc-lib/x86_64-open64-linux/4.5.2")
 prepend_path("MANPATH",             "/util/comp/open64/4.5/man")
 prepend_path("INCLUDE",             "/util/comp/open64/4.5/include")
-prepend_path("MODULEPATH",          "/util/opt/modulefiles/Compiler/open64/4.5")
+
+local mroot = os.getenv("MODULEPATH_ROOT") or "/util/opt/modulefiles"
+local mdir = pathJoin(mroot,"Compiler","open64","4.5")
+prepend_path("MODULEPATH",          mdir)
 
 setenv("CC",	"opencc")
 setenv("FC",	"openf90")
