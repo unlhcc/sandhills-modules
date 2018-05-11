@@ -20,7 +20,11 @@ prepend_path("PATH",                "/util/comp/pgi/2016/linux86-64/16/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/comp/pgi/2016/linux86-64/16/lib")
 prepend_path("MANPATH",             "/util/comp/pgi/2016/linux86-64/16/man")
 prepend_path("CPATH",               "/util/comp/pgi/2016/linux86-64/16/include")
-prepend_path("MODULEPATH",          "/util/opt/modulefiles/Compiler/pgi/16")
+
+local mroot = os.getenv("MODULEPATH_ROOT") or "/util/opt/modulefiles"
+local mdir = pathJoin(mroot,"Compiler","pgi","16")
+prepend_path("MODULEPATH",          mdir)
+
 setenv("CC",	"pgcc")
 setenv("FC",	"pgf90")
 setenv("F90",	"pgf90")
