@@ -1,5 +1,5 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2018-07-13T21:07:18Z" UniqueID="localsoft4.runner-45ffcae5-project-991-concurrent-0.tacc.xsede.org">
+  <RPSoftwareList Timestamp="2018-08-09T23:18:18Z" UniqueID="localsoft4.runner-45ffcae5-project-991-concurrent-0.tacc.xsede.org">
     <ResourceID>runner-45ffcae5-project-991-concurrent-0.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
@@ -1758,15 +1758,15 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>mathematics</Domain>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
       <Name>R</Name>
-      <Description>Microsoft R Open is the enhanced distribution of R from Microsoft Corporation.</Description>
-      <Flavor>3.4.4</Flavor>
+      <Description />
+      <Flavor>2.15</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>R/3.4</HandleKey>
+        <HandleKey>R/2.15</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1780,19 +1780,6 @@
       <Handle>
         <HandleType>module</HandleType>
         <HandleKey>R/3.2</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>R</Name>
-      <Description />
-      <Flavor>2.15</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>R/2.15</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
