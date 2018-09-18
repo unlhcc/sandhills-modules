@@ -1,6 +1,6 @@
 <V4RPSoftwareRP xmlns:ns1="https://mds.teragrid.org/2007/02/ctss">
-  <RPSoftwareList Timestamp="2018-08-20T17:15:15Z" UniqueID="localsoft4.runner-45ffcae5-project-991-concurrent-0.tacc.xsede.org">
-    <ResourceID>runner-45ffcae5-project-991-concurrent-0.tacc.xsede.org</ResourceID>
+  <RPSoftwareList Timestamp="2018-09-18T19:52:15Z" UniqueID="localsoft4.runner-ca46ac4d-project-991-concurrent-0.tacc.xsede.org">
+    <ResourceID>runner-ca46ac4d-project-991-concurrent-0.tacc.xsede.org</ResourceID>
     <SiteID>tacc.xsede.org</SiteID>
     <LocalSoftware>
       <Type>application</Type>
@@ -18,54 +18,28 @@
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>lammps</Name>
+      <Name>espresso</Name>
       <Description />
-      <Flavor>31MAR2017</Flavor>
+      <Flavor>5.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>lammps/31Mar2017</HandleKey>
+        <HandleKey>espresso/5.0</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.9:openmpi/1.8</Context>
+      <Context>compiler/intel/13:openmpi/1.6</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>lammps</Name>
+      <Name>espresso</Name>
       <Description />
-      <Flavor>15MAY2015</Flavor>
+      <Flavor>6.2.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>lammps/15May15</HandleKey>
+        <HandleKey>espresso/6.2</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.9:openmpi/1.8</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>lammps</Name>
-      <Description />
-      <Flavor>10Feb2017</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>lammps/10Feb2017</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.9:openmpi/1.8</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>lammps</Name>
-      <Description />
-      <Flavor>15MAY2015</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>lammps/15May15</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.9:openmpi/1.6</Context>
+      <Context>compiler/intel/15:openmpi/1.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -148,80 +122,67 @@
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>szip</Name>
+      <Name>proj</Name>
       <Description />
-      <Flavor>2.1</Flavor>
+      <Flavor>4.9</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>szip/2.1</HandleKey>
-      </Handle>
-      <Context>compiler/pgi/12</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>szip</Name>
-      <Description />
-      <Flavor>2.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>szip/2.1</HandleKey>
+        <HandleKey>proj/4.9</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.7</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>szip</Name>
+      <Type>application</Type>
+      <Domain>system</Domain>
+      <Name>python</Name>
       <Description />
-      <Flavor>2.1</Flavor>
+      <Flavor>3.3</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>szip/2.1</HandleKey>
+        <HandleKey>python/3.3</HandleKey>
       </Handle>
-      <Context>compiler/intel/12</Context>
+      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>szip</Name>
+      <Name>cp2k</Name>
       <Description />
-      <Flavor>2.1</Flavor>
+      <Flavor>2.6</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>szip/2.1</HandleKey>
+        <HandleKey>cp2k/2.6</HandleKey>
       </Handle>
-      <Context>compiler/intel/11</Context>
+      <Context>compiler/gcc/4.7:openmpi/1.6</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>openmx</Name>
+      <Name>cp2k</Name>
       <Description />
-      <Flavor>3.7</Flavor>
+      <Flavor>3.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>openmx/3.7</HandleKey>
+        <HandleKey>cp2k/3.0</HandleKey>
       </Handle>
-      <Context>compiler/intel/13:openmpi/1.6</Context>
+      <Context>compiler/gcc/4.7:openmpi/1.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>openmx</Name>
+      <Name>jasper</Name>
       <Description />
-      <Flavor>3.8</Flavor>
+      <Flavor>1.900.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>openmx/3.8</HandleKey>
+        <HandleKey>jasper/1.900</HandleKey>
       </Handle>
-      <Context>compiler/intel/13:openmpi/1.8</Context>
+      <Context>compiler/gcc/4.7</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -238,42 +199,16 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>Utility</Domain>
-      <Name>dmtcp</Name>
+      <Domain>compiler</Domain>
+      <Name>compiler/gcc</Name>
       <Description />
-      <Flavor>2.5</Flavor>
+      <Flavor>8.2</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>dmtcp/2.5</HandleKey>
+        <HandleKey>compiler/gcc/8.2</HandleKey>
       </Handle>
       <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>espresso</Name>
-      <Description />
-      <Flavor>5.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>espresso/5.0</HandleKey>
-      </Handle>
-      <Context>compiler/intel/13:openmpi/1.6</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>espresso</Name>
-      <Description />
-      <Flavor>6.2.1</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>espresso/6.2</HandleKey>
-      </Handle>
-      <Context>compiler/intel/15:openmpi/1.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -354,43 +289,43 @@
       <Context>compiler/pgi/12</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>vasp</Name>
+      <Type>application</Type>
+      <Domain>Chemistry</Domain>
+      <Name>atk</Name>
       <Description />
-      <Flavor>5.4</Flavor>
+      <Flavor>2014.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>vasp/5.4</HandleKey>
+        <HandleKey>atk/2014.1</HandleKey>
       </Handle>
-      <Context>compiler/intel/13:openmpi/1.6</Context>
+      <Context>compiler/gcc/4.7:mpich2/1.5</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>vasp</Name>
+      <Type>application</Type>
+      <Domain>Chemistry</Domain>
+      <Name>atk</Name>
       <Description />
-      <Flavor>5.4.4</Flavor>
+      <Flavor>2015.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>vasp/5.4.4</HandleKey>
+        <HandleKey>atk/2015.1</HandleKey>
       </Handle>
-      <Context>compiler/intel/15:openmpi/1.8</Context>
+      <Context>compiler/gcc/4.7:mpich2/1.5</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>vasp</Name>
+      <Type>application</Type>
+      <Domain>Chemistry</Domain>
+      <Name>atk</Name>
       <Description />
-      <Flavor>5.4</Flavor>
+      <Flavor>13.8.2</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>vasp/5.4sol</HandleKey>
+        <HandleKey>atk/13.8.2</HandleKey>
       </Handle>
-      <Context>compiler/intel/13:openmpi/1.6</Context>
+      <Context>compiler/gcc/4.7:mpich2/1.5</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -433,55 +368,68 @@
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
-      <Domain>Chemistry</Domain>
-      <Name>atk</Name>
-      <Description />
-      <Flavor>2014.1</Flavor>
+      <Domain>chemistry</Domain>
+      <Name>multiwell</Name>
+      <Description>MultiWell calculates time dependent concentrations, reaction yields, vibrational distributions, and rate constants as functions of temperature and pressure for multi-well, multi-channel unimolecular reactions systems that consist of stable species and multiple isomerization and/or dissociation reactions.</Description>
+      <Flavor>2017</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>atk/2014.1</HandleKey>
+        <HandleKey>multiwell/2017</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.7:mpich2/1.5</Context>
+      <Context>compiler/gcc/4.9:openmpi/1.8</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>Chemistry</Domain>
-      <Name>atk</Name>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>lammps</Name>
       <Description />
-      <Flavor>2015.1</Flavor>
+      <Flavor>31MAR2017</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>atk/2015.1</HandleKey>
+        <HandleKey>lammps/31Mar2017</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.7:mpich2/1.5</Context>
+      <Context>compiler/gcc/4.9:openmpi/1.8</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>Chemistry</Domain>
-      <Name>atk</Name>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>lammps</Name>
       <Description />
-      <Flavor>13.8.2</Flavor>
+      <Flavor>15MAY2015</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>atk/13.8.2</HandleKey>
+        <HandleKey>lammps/15May15</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.7:mpich2/1.5</Context>
+      <Context>compiler/gcc/4.9:openmpi/1.6</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational chemistry</Domain>
-      <Name>abinit</Name>
-      <Description>ABINIT is a package whose main program allows one to find the total energy.</Description>
-      <Flavor>8.0.8</Flavor>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>lammps</Name>
+      <Description />
+      <Flavor>10Feb2017</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>abinit/8.0</HandleKey>
+        <HandleKey>lammps/10Feb2017</HandleKey>
       </Handle>
-      <Context>compiler/intel/12:openmpi/1.8</Context>
+      <Context>compiler/gcc/4.9:openmpi/1.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>lammps</Name>
+      <Description />
+      <Flavor>15MAY2015</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>lammps/15May15</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.9:openmpi/1.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -510,30 +458,17 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>siesta</Name>
-      <Description />
-      <Flavor>4.1.3</Flavor>
+      <Type>application</Type>
+      <Domain>computational chemistry</Domain>
+      <Name>abinit</Name>
+      <Description>ABINIT is a package whose main program allows one to find the total energy.</Description>
+      <Flavor>8.0.8</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>siesta/4.1</HandleKey>
+        <HandleKey>abinit/8.0</HandleKey>
       </Handle>
-      <Context>compiler/intel/13:openmpi/1.8</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>siesta</Name>
-      <Description />
-      <Flavor>4.1.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>siesta/4.1</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.9:openmpi/1.8</Context>
+      <Context>compiler/intel/12:openmpi/1.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -560,19 +495,6 @@
         <HandleKey>nwchem/6.5</HandleKey>
       </Handle>
       <Context>compiler/intel/13:openmpi/1.6</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>system</Domain>
-      <Name>python</Name>
-      <Description />
-      <Flavor>3.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>python/3.3</HandleKey>
-      </Handle>
-      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -638,6 +560,32 @@
         <HandleKey>intel-mkl/13</HandleKey>
       </Handle>
       <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>openmx</Name>
+      <Description />
+      <Flavor>3.7</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>openmx/3.7</HandleKey>
+      </Handle>
+      <Context>compiler/intel/13:openmpi/1.6</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>openmx</Name>
+      <Description />
+      <Flavor>3.8</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>openmx/3.8</HandleKey>
+      </Handle>
+      <Context>compiler/intel/13:openmpi/1.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -720,28 +668,28 @@
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>cdo</Name>
+      <Name>siesta</Name>
       <Description />
-      <Flavor>1.7</Flavor>
+      <Flavor>4.1.3</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>cdo/1.7</HandleKey>
+        <HandleKey>siesta/4.1</HandleKey>
       </Handle>
-      <Context>compiler/pgi/12</Context>
+      <Context>compiler/intel/13:openmpi/1.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>cdo</Name>
+      <Name>siesta</Name>
       <Description />
-      <Flavor>1.6</Flavor>
+      <Flavor>4.1.3</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>cdo/1.6</HandleKey>
+        <HandleKey>siesta/4.1</HandleKey>
       </Handle>
-      <Context>compiler/pgi/12</Context>
+      <Context>compiler/gcc/4.9:openmpi/1.8</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -767,7 +715,7 @@
         <HandleType>module</HandleType>
         <HandleKey>hdf4/4.2</HandleKey>
       </Handle>
-      <Context>compiler/intel/12</Context>
+      <Context>compiler/intel/11</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -793,7 +741,7 @@
         <HandleType>module</HandleType>
         <HandleKey>hdf4/4.2</HandleKey>
       </Handle>
-      <Context>compiler/intel/11</Context>
+      <Context>compiler/intel/12</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -819,7 +767,7 @@
         <HandleType>module</HandleType>
         <HandleKey>hdfeos5/1.14</HandleKey>
       </Handle>
-      <Context>compiler/intel/12</Context>
+      <Context>compiler/intel/11</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -845,7 +793,7 @@
         <HandleType>module</HandleType>
         <HandleKey>hdfeos5/1.14</HandleKey>
       </Handle>
-      <Context>compiler/intel/11</Context>
+      <Context>compiler/intel/12</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -863,65 +811,52 @@
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>hdf5</Name>
+      <Name>szip</Name>
       <Description />
-      <Flavor>1.8</Flavor>
+      <Flavor>2.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>hdf5/1.8</HandleKey>
+        <HandleKey>szip/2.1</HandleKey>
       </Handle>
       <Context>compiler/pgi/12</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>hdf5</Name>
+      <Name>szip</Name>
       <Description />
-      <Flavor>1.8</Flavor>
+      <Flavor>2.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>hdf5/1.8</HandleKey>
-      </Handle>
-      <Context>compiler/intel/12</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>hdf5</Name>
-      <Description />
-      <Flavor>1.8</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>hdf5/1.8</HandleKey>
+        <HandleKey>szip/2.1</HandleKey>
       </Handle>
       <Context>compiler/gcc/4.7</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>hdf5</Name>
+      <Name>szip</Name>
       <Description />
-      <Flavor>1.8</Flavor>
+      <Flavor>2.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>hdf5/1.8</HandleKey>
+        <HandleKey>szip/2.1</HandleKey>
       </Handle>
       <Context>compiler/intel/11</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>hdf5</Name>
+      <Name>szip</Name>
       <Description />
-      <Flavor>1.8.6</Flavor>
+      <Flavor>2.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>hdf5/1.8.6</HandleKey>
+        <HandleKey>szip/2.1</HandleKey>
       </Handle>
       <Context>compiler/intel/12</Context>
     </LocalSoftware>
@@ -941,15 +876,15 @@
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>proj</Name>
+      <Name>NCO</Name>
       <Description />
-      <Flavor>4.9</Flavor>
+      <Flavor>4.2</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>proj/4.9</HandleKey>
+        <HandleKey>NCO/4.2</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.7</Context>
+      <Context>compiler/intel/11</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -993,15 +928,67 @@
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>NCO</Name>
+      <Name>hdf5</Name>
       <Description />
-      <Flavor>4.2</Flavor>
+      <Flavor>1.8</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>NCO/4.2</HandleKey>
+        <HandleKey>hdf5/1.8</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/12</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>hdf5</Name>
+      <Description />
+      <Flavor>1.8</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>hdf5/1.8</HandleKey>
       </Handle>
       <Context>compiler/intel/11</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>hdf5</Name>
+      <Description />
+      <Flavor>1.8</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>hdf5/1.8</HandleKey>
+      </Handle>
+      <Context>compiler/gcc/4.7</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>hdf5</Name>
+      <Description />
+      <Flavor>1.8</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>hdf5/1.8</HandleKey>
+      </Handle>
+      <Context>compiler/intel/12</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>hdf5</Name>
+      <Description />
+      <Flavor>1.8.6</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>hdf5/1.8.6</HandleKey>
+      </Handle>
+      <Context>compiler/intel/12</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -1017,17 +1004,43 @@
       <Context>compiler/gcc/7.1</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>application</Type>
-      <Domain>chemistry</Domain>
-      <Name>multiwell</Name>
-      <Description>MultiWell calculates time dependent concentrations, reaction yields, vibrational distributions, and rate constants as functions of temperature and pressure for multi-well, multi-channel unimolecular reactions systems that consist of stable species and multiple isomerization and/or dissociation reactions.</Description>
-      <Flavor>2017</Flavor>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>vasp</Name>
+      <Description />
+      <Flavor>5.4</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>multiwell/2017</HandleKey>
+        <HandleKey>vasp/5.4sol</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.9:openmpi/1.8</Context>
+      <Context>compiler/intel/13:openmpi/1.6</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>vasp</Name>
+      <Description />
+      <Flavor>5.4.4</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>vasp/5.4.4</HandleKey>
+      </Handle>
+      <Context>compiler/intel/15:openmpi/1.8</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>vasp</Name>
+      <Description />
+      <Flavor>5.4</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>vasp/5.4</HandleKey>
+      </Handle>
+      <Context>compiler/intel/13:openmpi/1.6</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -1118,7 +1131,7 @@
         <HandleType>module</HandleType>
         <HandleKey>netcdf/4.2</HandleKey>
       </Handle>
-      <Context>compiler/intel/12</Context>
+      <Context>compiler/intel/11</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -1131,7 +1144,7 @@
         <HandleType>module</HandleType>
         <HandleKey>netcdf/4.2</HandleKey>
       </Handle>
-      <Context>compiler/intel/11</Context>
+      <Context>compiler/intel/12</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -1160,30 +1173,17 @@
       <Context>compiler/intel/13:openmpi/1.8</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>cp2k</Name>
-      <Description />
-      <Flavor>2.6</Flavor>
+      <Type>application</Type>
+      <Domain>computational biology</Domain>
+      <Name>clustal-omega</Name>
+      <Description>Clustal Omega is the latest addition to the Clustal family. It offers a significant increase in scalability over previous versions, allowing hundreds of thousands of sequences to be aligned in only a few hours</Description>
+      <Flavor>1.2</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>cp2k/2.6</HandleKey>
+        <HandleKey>clustal-omega/1.2</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.7:openmpi/1.6</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>cp2k</Name>
-      <Description />
-      <Flavor>3.0</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>cp2k/3.0</HandleKey>
-      </Handle>
-      <Context>compiler/gcc/4.7:openmpi/1.8</Context>
+      <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -1209,7 +1209,7 @@
         <HandleType>module</HandleType>
         <HandleKey>hdfeos2/2.18</HandleKey>
       </Handle>
-      <Context>compiler/intel/12</Context>
+      <Context>compiler/intel/11</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -1235,7 +1235,7 @@
         <HandleType>module</HandleType>
         <HandleKey>hdfeos2/2.18</HandleKey>
       </Handle>
-      <Context>compiler/intel/11</Context>
+      <Context>compiler/intel/12</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -1326,19 +1326,6 @@
         <HandleType>module</HandleType>
         <HandleKey>acml/5.3</HandleKey>
       </Handle>
-      <Context>compiler/pgi/13</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>acml</Name>
-      <Description />
-      <Flavor>5.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>acml/5.3</HandleKey>
-      </Handle>
       <Context>compiler/intel/13</Context>
     </LocalSoftware>
     <LocalSoftware>
@@ -1352,7 +1339,46 @@
         <HandleType>module</HandleType>
         <HandleKey>acml/5.3</HandleKey>
       </Handle>
+      <Context>compiler/intel/11</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>acml</Name>
+      <Description />
+      <Flavor>5.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>acml/5.3</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/11</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>acml</Name>
+      <Description />
+      <Flavor>5.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>acml/5.3</HandleKey>
+      </Handle>
       <Context>compiler/pgi/14</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>acml</Name>
+      <Description />
+      <Flavor>5.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>acml/5.3</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/13</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -1392,32 +1418,6 @@
         <HandleKey>acml/5.3</HandleKey>
       </Handle>
       <Context>compiler/pgi/15</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>acml</Name>
-      <Description />
-      <Flavor>5.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>acml/5.3</HandleKey>
-      </Handle>
-      <Context>compiler/intel/11</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>acml</Name>
-      <Description />
-      <Flavor>5.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>acml/5.3</HandleKey>
-      </Handle>
-      <Context>compiler/pgi/11</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -1474,15 +1474,28 @@
     <LocalSoftware>
       <Type>library</Type>
       <Domain>runtime support</Domain>
-      <Name>jasper</Name>
+      <Name>cdo</Name>
       <Description />
-      <Flavor>1.900.1</Flavor>
+      <Flavor>1.7</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>jasper/1.900</HandleKey>
+        <HandleKey>cdo/1.7</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.7</Context>
+      <Context>compiler/pgi/12</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>cdo</Name>
+      <Description />
+      <Flavor>1.6</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>cdo/1.6</HandleKey>
+      </Handle>
+      <Context>compiler/pgi/12</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -1567,11 +1580,11 @@
       <Domain>machine learning</Domain>
       <Name>tensorflow</Name>
       <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
-      <Flavor>1.5.0</Flavor>
+      <Flavor>1.0.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>tensorflow/py36/1.5</HandleKey>
+        <HandleKey>tensorflow/py27/1.0</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1593,11 +1606,11 @@
       <Domain>machine learning</Domain>
       <Name>tensorflow</Name>
       <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
-      <Flavor>1.3.1</Flavor>
+      <Flavor>0.12.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>tensorflow/py27/1.3</HandleKey>
+        <HandleKey>tensorflow/py35/0.12</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1606,11 +1619,11 @@
       <Domain>machine learning</Domain>
       <Name>tensorflow</Name>
       <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
-      <Flavor>1.0.0</Flavor>
+      <Flavor>1.5.0</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>tensorflow/py27/1.0</HandleKey>
+        <HandleKey>tensorflow/py36/1.5</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1632,11 +1645,11 @@
       <Domain>machine learning</Domain>
       <Name>tensorflow</Name>
       <Description>TensorFlow is an open source software library for numerical computation using data flow graphs.</Description>
-      <Flavor>0.12.1</Flavor>
+      <Flavor>1.3.1</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>tensorflow/py27/0.12</HandleKey>
+        <HandleKey>tensorflow/py27/1.3</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
@@ -1649,48 +1662,9 @@
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>tensorflow/py35/0.12</HandleKey>
+        <HandleKey>tensorflow/py27/0.12</HandleKey>
       </Handle>
       <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>application</Type>
-      <Domain>computational biology</Domain>
-      <Name>clustal-omega</Name>
-      <Description>Clustal Omega is the latest addition to the Clustal family. It offers a significant increase in scalability over previous versions, allowing hundreds of thousands of sequences to be aligned in only a few hours</Description>
-      <Flavor>1.2</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>clustal-omega/1.2</HandleKey>
-      </Handle>
-      <Context>default</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>fftw3</Name>
-      <Description />
-      <Flavor>3.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>fftw3/3.3</HandleKey>
-      </Handle>
-      <Context>compiler/intel/15</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>fftw3</Name>
-      <Description />
-      <Flavor>3.3</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>fftw3/3.3</HandleKey>
-      </Handle>
-      <Context>compiler/intel/13</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>application</Type>
@@ -1771,6 +1745,45 @@
       <Context>default</Context>
     </LocalSoftware>
     <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>fftw3</Name>
+      <Description />
+      <Flavor>3.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>fftw3/3.3</HandleKey>
+      </Handle>
+      <Context>compiler/intel/15</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>fftw3</Name>
+      <Description />
+      <Flavor>3.3</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>fftw3/3.3</HandleKey>
+      </Handle>
+      <Context>compiler/intel/13</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>WRF</Name>
+      <Description />
+      <Flavor>WRF</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>WRF/WRF</HandleKey>
+      </Handle>
+      <Context>default</Context>
+    </LocalSoftware>
+    <LocalSoftware>
       <Type>application</Type>
       <Domain>Utility</Domain>
       <Name>python-openstackclient</Name>
@@ -1807,19 +1820,6 @@
         <HandleType>module</HandleType>
         <HandleKey>zlib/1.2</HandleKey>
       </Handle>
-      <Context>compiler/intel/11</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>zlib</Name>
-      <Description />
-      <Flavor>1.2</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>zlib/1.2</HandleKey>
-      </Handle>
       <Context>compiler/intel/12</Context>
     </LocalSoftware>
     <LocalSoftware>
@@ -1833,7 +1833,7 @@
         <HandleType>module</HandleType>
         <HandleKey>zlib/1.2</HandleKey>
       </Handle>
-      <Context>compiler/open64/4.5</Context>
+      <Context>compiler/gcc/4.7</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -1846,7 +1846,20 @@
         <HandleType>module</HandleType>
         <HandleKey>zlib/1.2</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.7</Context>
+      <Context>compiler/intel/11</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>zlib</Name>
+      <Description />
+      <Flavor>1.2</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>zlib/1.2</HandleKey>
+      </Handle>
+      <Context>compiler/open64/4.5</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -1983,13 +1996,13 @@
       <Domain>runtime support</Domain>
       <Name>openmpi</Name>
       <Description />
-      <Flavor>1.8</Flavor>
+      <Flavor>1.10.4</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>openmpi/1.8</HandleKey>
+        <HandleKey>openmpi/1.10</HandleKey>
       </Handle>
-      <Context>compiler/gcc/4.7</Context>
+      <Context>compiler/intel/16</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -2074,26 +2087,13 @@
       <Domain>runtime support</Domain>
       <Name>openmpi</Name>
       <Description />
-      <Flavor>1.6</Flavor>
+      <Flavor>1.8</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>openmpi/1.6</HandleKey>
+        <HandleKey>openmpi/1.8</HandleKey>
       </Handle>
-      <Context>compiler/pgi/14</Context>
-    </LocalSoftware>
-    <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>openmpi</Name>
-      <Description />
-      <Flavor>1.10.4</Flavor>
-      <Default>no</Default>
-      <Handle>
-        <HandleType>module</HandleType>
-        <HandleKey>openmpi/1.10</HandleKey>
-      </Handle>
-      <Context>compiler/intel/16</Context>
+      <Context>compiler/gcc/4.7</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -2132,6 +2132,19 @@
         <HandleType>module</HandleType>
         <HandleKey>openmpi/1.8</HandleKey>
       </Handle>
+      <Context>compiler/intel/15</Context>
+    </LocalSoftware>
+    <LocalSoftware>
+      <Type>library</Type>
+      <Domain>runtime support</Domain>
+      <Name>openmpi</Name>
+      <Description />
+      <Flavor>1.8</Flavor>
+      <Default>no</Default>
+      <Handle>
+        <HandleType>module</HandleType>
+        <HandleKey>openmpi/1.8</HandleKey>
+      </Handle>
       <Context>compiler/gcc/4.9</Context>
     </LocalSoftware>
     <LocalSoftware>
@@ -2152,11 +2165,11 @@
       <Domain>runtime support</Domain>
       <Name>openmpi</Name>
       <Description />
-      <Flavor>1.8</Flavor>
+      <Flavor>1.6</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>openmpi/1.8</HandleKey>
+        <HandleKey>openmpi/1.6</HandleKey>
       </Handle>
       <Context>compiler/pgi/11</Context>
     </LocalSoftware>
@@ -2171,7 +2184,7 @@
         <HandleType>module</HandleType>
         <HandleKey>openmpi/1.8</HandleKey>
       </Handle>
-      <Context>compiler/intel/15</Context>
+      <Context>compiler/pgi/12</Context>
     </LocalSoftware>
     <LocalSoftware>
       <Type>library</Type>
@@ -2204,11 +2217,11 @@
       <Domain>runtime support</Domain>
       <Name>openmpi</Name>
       <Description />
-      <Flavor>1.6</Flavor>
+      <Flavor>1.8</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>openmpi/1.6</HandleKey>
+        <HandleKey>openmpi/1.8</HandleKey>
       </Handle>
       <Context>compiler/pgi/11</Context>
     </LocalSoftware>
@@ -2230,24 +2243,24 @@
       <Domain>runtime support</Domain>
       <Name>openmpi</Name>
       <Description />
-      <Flavor>1.8</Flavor>
+      <Flavor>1.6</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>openmpi/1.8</HandleKey>
+        <HandleKey>openmpi/1.6</HandleKey>
       </Handle>
-      <Context>compiler/pgi/12</Context>
+      <Context>compiler/pgi/14</Context>
     </LocalSoftware>
     <LocalSoftware>
-      <Type>library</Type>
-      <Domain>runtime support</Domain>
-      <Name>WRF</Name>
+      <Type>application</Type>
+      <Domain>Utility</Domain>
+      <Name>dmtcp</Name>
       <Description />
-      <Flavor>WRF</Flavor>
+      <Flavor>2.5</Flavor>
       <Default>no</Default>
       <Handle>
         <HandleType>module</HandleType>
-        <HandleKey>WRF/WRF</HandleKey>
+        <HandleKey>dmtcp/2.5</HandleKey>
       </Handle>
       <Context>default</Context>
     </LocalSoftware>
